@@ -1,0 +1,12 @@
+import React, { memo } from "react";
+import type { FC, ReactNode } from "react";
+
+interface IProps {
+  children?: ReactNode;
+}
+
+const <%- data["name"] %>: FC<IProps> = () => {
+  return <div><%- data["name"] %></div>;
+};
+
+export default memo(<%- data["name"] %>);
