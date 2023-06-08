@@ -1,6 +1,6 @@
 const fs = require("fs");
 const { SHAPE_FLAGS } = require("./shapeFlags");
-const { LICENSE, GITIGNORE } = require("../constants/templateName");
+const { LICENSE, GITIGNORE, ESLINTVUE } = require("../constants/templateName");
 function writeFileSync(context, data) {
   let file;
   if (

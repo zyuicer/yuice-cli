@@ -4,6 +4,9 @@ const REACTTS = "reactts";
 const REACT = "react";
 const LICENSE = "LICENSE";
 const GITIGNORE = ".gitignore";
+const ESLINTVUE = ".eslint-vue";
+const PRETTIER = '.prettierrc'
+const EDITORCONFIG = '.editorconfig'
 
 module.exports = {
   VUE,
@@ -12,4 +15,7 @@ module.exports = {
   REACT,
   LICENSE,
   GITIGNORE,
+  ESLINTVUE,
+  PRETTIER,
+  EDITORCONFIG,
 };

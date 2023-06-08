@@ -6,6 +6,7 @@ const {
   REACT,
   LICENSE,
   GITIGNORE,
+  ESLINTVUE,
 } = require("../constants/templateName");
 const TEMPLATE_MAP = {
   [SHAPE_FLAGS[VUE]]: VUE,
@@ -14,6 +15,7 @@ const TEMPLATE_MAP = {
   [SHAPE_FLAGS[REACTTS]]: REACTTS,
   [SHAPE_FLAGS[LICENSE]]: LICENSE,
   [SHAPE_FLAGS[GITIGNORE]]: GITIGNORE,
+  [SHAPE_FLAGS[ESLINTVUE]]: ESLINTVUE,
 };
 
 module.exports = {

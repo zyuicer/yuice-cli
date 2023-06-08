@@ -5,6 +5,9 @@ const {
   REACT,
   LICENSE,
   GITIGNORE,
+  ESLINTVUE,
+  PRETTIER,
+  EDITORCONFIG,
 } = require("../constants/templateName");
 
 const SHAPE_FLAGS = {
@@ -14,6 +17,9 @@ const SHAPE_FLAGS = {
   [REACTTS]: 1 << 3,
   [LICENSE]: 1 << 4,
   [GITIGNORE]: 1 << 5,
+  [ESLINTVUE]: 1 << 6,
+  [PRETTIER]: 1 << 7,
+  [EDITORCONFIG]: 1 << 8,
 };
 
 module.exports = {
